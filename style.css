@@ -1,0 +1,87 @@
+.titredroit{
+    background-color: rgb(182, 180, 180) (218, 215, 215);
+    text-align: right;
+   
+    padding: 1%;
+    width: 98%;
+    margin-top: 3%;
+}
+.bien{
+    margin-right: 5%;
+}
+.nav{
+    background-color: rgb(34, 43, 39);
+    height: 30px;
+}
+.a1{
+    margin-left: 2%;
+    color: aliceblue;
+}
+.a2{
+    margin-left: 3%;
+    color: aliceblue;
+}
+.a3{
+    margin-left: 3%;
+    color: aliceblue;
+}
+.a1,.a2,.a3{
+    /* margin-bottom: -2%; */
+    font-size: 13px;
+}
+.fourniss,.formulaire{
+    width: 13%;
+    border-color: rgb(238, 60, 6);
+    background-color: rgb(248, 243, 243);
+}
+.formu{
+margin-left: 80%;
+margin-top: -9%;
+}
+.d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.d9,.d10,.d11,.d12{
+    background-color: rgb(253, 212, 217);
+    border-radius: 10%;
+    border-color: rgb(248, 120, 120);
+}
+/* responsive  */
+/* mobile */
+@media screen and (min-width:320px) and (max-width:768px){
+    .titredroit{
+        background-color: rgb(214, 218, 216);
+        text-align: center;
+       
+        padding: 1%;
+        width: 98%;
+        margin-top: 3%;
+    }
+    .nav{
+        background-color: rgb(34, 43, 39);
+        height: 30px;
+        text-align: center;
+    }
+    .a1{
+        margin-left: 2%;
+        color: aliceblue;
+    }
+    .a2{
+        margin-left: 3%;
+        color: aliceblue;
+    }
+    .a3{
+        margin-left: 3%;
+        color: aliceblue;
+    }
+    .a1,.a2,.a3{
+        /* margin-bottom: -2%; */
+        font-size: 13px;
+    }
+    .s{
+        margin-left: 22%; 
+        border-radius: 10%;
+    border-color: rgb(245, 122, 122);
+    }
+    .formu{
+         margin-left: 22%; 
+        margin-top: 2%;
+        }
+}
